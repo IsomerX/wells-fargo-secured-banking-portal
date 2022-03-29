@@ -1,0 +1,87 @@
+.main__accounts {
+    background-color: #f6f6f0;
+    border: 2px solid #bebebe;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0 20px 0;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.accSum,
+.cashAcc {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.acc__heading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2em;
+}
+
+.greybox {
+    background-color: #95959588;
+}
+
+.persAcc{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.persAcc > div{
+    font-size: 1.3em;
+}
+
+.card {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.2), 0px -3px 5px 0px rgba(0,0,0,0.2);
+}
+
+.card__heading {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.texta{
+    width: 95%;
+    text-align: center;
+}
+
+.texta a {
+    color: black;
+    font-weight: 600;
+}
+
+.texta button {
+    padding: 5px 20px;
+    width: 30%;
+}
+
+.texta__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}

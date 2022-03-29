@@ -1,0 +1,19 @@
+
+.bank{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bank__title{
+    font-size: 1.3em;
+    font-weight: 600;   
+}
+
+.information{
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.whole {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.infoBar {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.accSummary {
+    background-color: #dcd2ce;
+    padding: 10px 0;
+    box-shadow: 10px 10px 16px 10px rgb(59 51 49 / 15%);
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid rgba(156, 130, 130, 0.472);
+    margin-top: 200px;
+}
+th {
+    text-align: center;
+}
+tr {
+    background: white;
+    text-align: center;
+}
+th,
+td {
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #d9dedc;
+}
+
+.head {
+    background-color: #bebebd;
+}
+tr td:nth-child(1) {
+    padding-left: 10px;
+}

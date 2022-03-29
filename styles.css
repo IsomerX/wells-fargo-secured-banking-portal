@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background: url("./assets/images/login-bg.jpg");
+    background-size: cover;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #d71e28;
+    border-bottom: 5px solid #fcc60a;
+}
+
+.wrapper {
+    width: 55%;
+    height: 100%;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav__wrapper img {
+    height: 20px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.search {
+    background-color: #fff;
+    color: #8b8b8b;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    height: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #f4f0ed;
+    bottom: 0;
+}
+
+footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+footer div {
+    font-size: 0.95em;
+}
